@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Animated Icons: https://icons8.com/icons/set/cart--animated -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/quiz_style.css" rel="stylesheet" />
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'> 
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/shopping-cart.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+    <title>Laptop Quiz</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#store">Store</a></li>
+            <li><a href="#air">Air</a></li>
+            <li><a href="#pro">Pro</a></li>
+        </ul>
+    </nav>
+    <a href="#logo"><img src="styles/images/logo.png" class="logo_img" alt=""></a>
+
+    <!-- Navigation Bar after "Pro" -->
+    <nav class="nav-after-pro">
+        <ul>
+            <li><a href="#support">Support</a></li>          
+            <li><a href="#more">More...</a></li>          
+            <li><a href="#search"><img class="search-gif" src="styles/images/search.gif" alt=""></a></li>
+            <li><a href="#cart"><img class="cart-gif" src="styles/images/cart.gif" alt=""></a></li>
+        </ul>
+    </nav>
+    <section class="main_area">
+        <h2>Laptop Quiz</h2>
+        <form action="#" method="post">
+            <label for="popular_brands">Do you know which laptop brands are most popular?</label><br>
+            <input type="text" id="popular_brands" name="popular_brands"><br>
+
+            <label for="gpu_vram">Do you know about the GPU and VRAM?</label><br>
+            <input type="text" id="gpu_vram" name="gpu_vram"><br>
+
+            <label for="processor">Can you identify different laptop processors?</label><br>
+            <input type="text" id="processor" name="processor"><br>
+
+            <label for="ram">What do you know about laptop RAM?</label><br>
+            <input type="text" id="ram" name="ram"><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
