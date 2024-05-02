@@ -1,0 +1,155 @@
+/* Common Styles */
+body, nav, nav ul, nav ul li, nav ul li a, .hidden-section, .content-section {
+    font-family: "Island Moments", cursive;
+}
+
+.island-moments-regular {
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.jpg');
+    background-size: 100%;
+    text-align: center; 
+}
+
+nav {
+    background-color: #ffffff;
+    border: 2px solid #bababa; 
+    color: #000000;
+    padding: 12px 15px;
+    text-align: center;
+    border-radius: 0 0 25px 25px;
+    width: fit-content;
+    margin: 0 auto; 
+    display: inline-block; 
+    vertical-align: top; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    opacity: 0.5;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+    color: #000000;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+}
+
+.hidden-section {
+    display: none;
+    background-color: #ffffff;
+    margin-top: 23px;
+    width: 400px;
+    height: 30px;
+    font-size: 110%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-item:hover .hidden-section {
+    display: block;
+    padding-left: 18px;
+}
+
+.content-section {
+    padding: 15px;
+}
+
+.cart-gif {
+    width: 26px;
+    height: 20px;
+    padding-left: 20px;
+}
+
+.search-gif {
+    width: 25px;
+    height: 25px;
+}
+
+.laptop {
+    width: 20px;
+    height: 40px;
+}
+
+nav ul li a[href="#cart"] {
+    left: 40px;
+}
+
+nav ul li a[href="#search"] {
+    right: 40px;
+    left: 20px;
+}
+
+nav ul li:hover a {
+    color: rgb(104, 104, 104);
+    font-size: 25px;
+}
+
+.logo_img {
+    width: 6em;
+    height: 6em; 
+}
+
+.nav-after-pro {
+    background-color: #ffffff;
+    border: 2px solid #bababa; 
+    color: #cd0d0d;
+    padding: 12px 15px;
+    text-align: center;
+    border-radius: 0 0 25px 25px; 
+    width: fit-content;
+    margin: 0 auto; 
+    display: inline-block; 
+    vertical-align: top; 
+    font-size: 30px; /
+}
+
+.nav-after-pro ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    opacity: 0.5;
+    display: inline-block;
+}
+
+.nav-after-pro ul li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+    color: #000000;
+}
+
+.nav-after-pro ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px; 
+}
+.main_area{
+    background-color: #000000;
+    border-radius: 20px 20px 0 0;
+    color: #000000;
+    text-align: center;
+    border-radius: 30px;
+    width: 1200px;
+    height: 700px;
+    display: inline-block; 
+    vertical-align: center; 
+    opacity: 0.4;
+}
